@@ -1,6 +1,7 @@
 def starts_with_a_vowel?(word)
   # word.split.all? do |test_word|
-   test_word.match(/^[aeiouAEIOU]\w+/)
+   test_word.match(/^[aeiouAEIOU]\w+/) ? true : false
+   
   # end
 end
 
